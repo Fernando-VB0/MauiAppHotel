@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Sobre"
+             Title="Sobre o Desenvolvedor"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout VerticalOptions="Center" 
+                         HorizontalOptions="Center" 
+                         Spacing="15" 
+                         Padding="30">
+
+        <Label Text="App Hotel" 
+               TextColor="Aquamarine"
+               FontSize="60" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvido por: FernandoVB" 
+               FontSize="18" 
+               HorizontalOptions="Center" />
+
+        <Label Text="Ano: 2026" 
+               FontSize="16" 
+               HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

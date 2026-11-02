@@ -14,6 +14,7 @@
                 SemanticProperties.Description="dot net bot in a submarine number ten" />
 
             <Label
+                FontFamily="ImperialScriptRegular"
                 Text="Hello, World!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
