@@ -3,28 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.HospedagemContratada"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="lightgray">
+             BackgroundColor="Black">
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
         <Label 
             Text="Hospedagem Contratada"
             FontFamily="ImperialScriptRegular"
             FontSize="50"
-            TextColor="Red"
+            TextColor="White"
             HorizontalTextAlignment="Center" />
 
         <Frame Padding="10" Margin="10">
             <HorizontalStackLayout>
 
                 <HorizontalStackLayout>
-                    <Label Text="Adultos: " />
+                    <Label Text="Adultos:  " />
                     <Label Text="2"
                            TextColor="Red" />
 
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout>
-                    <Label Text="Crianças: " />
+                    <Label Text="Crianças:  " />
                     <Label Text="1"
                            TextColor="Red" />
 
