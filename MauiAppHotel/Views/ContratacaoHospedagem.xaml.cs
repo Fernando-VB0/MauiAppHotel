@@ -15,8 +15,8 @@ public partial class ContratacaoHospedagem : ContentPage
         dtcpk_checkin.MinimumDate = DateTime.Now;
         dtcpk_checkin.MaximumDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month +1, DateTime.Now.Day);
 
-        dtcpk_checkout.MinimumDate = new DateTime(DateTime.Now.Day + 1);
-        dtcpk_checkout.MaximumDate = new DateTime(DateTime.Now.Month + 6);
+        dtcpk_checkout.MinimumDate = dtcpk_checkin.Date.Value.AddDays(1);
+        dtcpk_checkout.MaximumDate = dtcpk_checkin.Date.Value.AddMonths(6);
 
     }
 
